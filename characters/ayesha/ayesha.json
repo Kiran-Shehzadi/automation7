@@ -1,0 +1,119 @@
+{
+  "character_id": "AYESHA_HUMAN_001",
+  "name": "Ayesha",
+
+  "age": 11,
+  "gender": "Female",
+  "nationality": "Pakistani",
+
+  "character_style": "Ultra Photorealistic Human",
+
+  "face_features": {
+    "face_shape": "Slim oval face",
+    "face_structure": "Natural delicate human facial anatomy",
+    "forehead": "Naturally proportionate forehead",
+    "eyes": {
+      "shape": "Almond shaped",
+      "size": "Naturally expressive medium-large",
+      "color": "Warm light brown",
+      "eyelashes": "Natural eyelashes",
+      "expression": "Soft innocent gaze"
+    },
+    "eyebrows": {
+      "shape": "Naturally defined",
+      "thickness": "Medium to naturally thick",
+      "color": "Dark brown"
+    },
+    "nose": {
+      "shape": "Straight and naturally slim",
+      "proportion": "Age-appropriate"
+    },
+    "lips": {
+      "shape": "Naturally defined",
+      "color": "Soft natural pink",
+      "size": "Proportionate"
+    },
+    "cheeks": "Slim natural cheeks",
+    "chin": "Soft rounded natural chin",
+    "jawline": "Gentle oval jawline"
+  },
+
+  "skin": {
+    "tone": "Fair light warm complexion",
+    "texture": "Realistic natural human skin",
+    "details": "Subtle natural skin pores",
+    "finish": "Natural, not plastic or airbrushed"
+  },
+
+  "body_features": {
+    "build": "Naturally slender",
+    "proportions": "Realistic 11-year-old child anatomy",
+    "posture": "Natural relaxed posture",
+    "hands": "Realistic child hands"
+  },
+
+  "hair_and_hijab": {
+    "hair_color": "Dark brown",
+    "hair": "Completely covered",
+    "hijab": "Neatly wrapped Pakistani modest hijab",
+    "hijab_color": "Pastel pink",
+    "coverage": "Full head, neck and chest coverage"
+  },
+
+  "clothing": {
+    "outfit": "Traditional Pakistani shalwar kameez",
+    "shirt": "Long loose full-sleeved kameez",
+    "shalwar": "Traditional loose shalwar",
+    "fabric": "Realistic cotton",
+    "color": "Pastel pink with subtle white details",
+    "style": "Elegant, simple and modest"
+  },
+
+  "facial_expressions": [
+    "Innocent gentle smile",
+    "Curious expression",
+    "Natural happiness",
+    "Thoughtful expression",
+    "Surprised expression",
+    "Sad expression"
+  ],
+
+  "rendering_settings": {
+    "quality": "Ultra photorealistic",
+    "render_style": "Real human photography",
+    "lighting": "Soft natural daylight",
+    "camera": "Professional DSLR",
+    "skin_details": "High resolution realistic skin",
+    "anatomy": "Accurate human anatomy",
+    "resolution": "4K",
+    "view": "Full body and portrait references"
+  },
+
+  "negative_prompt": [
+    "Cartoon face",
+    "Anime",
+    "Pixar",
+    "Disney",
+    "Chubby face",
+    "Round baby face",
+    "Doll-like appearance",
+    "Plastic skin",
+    "Oversized eyes",
+    "Exaggerated facial features",
+    "Adult appearance",
+    "Heavy makeup",
+    "Artificial beauty filter",
+    "Unrealistic body proportions"
+  ],
+
+  "identity_consistency": {
+    "fixed_face_structure": true,
+    "fixed_eye_shape": true,
+    "fixed_eye_color": true,
+    "fixed_nose_shape": true,
+    "fixed_lip_shape": true,
+    "fixed_skin_tone": true,
+    "fixed_age": true,
+    "fixed_body_proportions": true
+  }
+}
