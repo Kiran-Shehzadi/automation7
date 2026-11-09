@@ -1,0 +1,115 @@
+{
+  "project": {
+    "series": "Little Muslim Learners",
+    "episode": 1,
+    "title": "Ayesha Learns the Dua Before Eating",
+    "title_urdu": "عائشہ نے کھانے سے پہلے کی دعا سیکھی",
+    "category": "Children's Islamic Education (ages 5-10)",
+    "duration_seconds": 120,
+    "visual_style": "Realistic 3D human animation",
+    "aspect_ratio": "16:9",
+    "resolution": "1920x1080 (1080p) minimum, 3840x2160 (4K) preferred",
+    "language": "Urdu",
+    "fps": 24
+  },
+
+  "character_file": "../../characters/ayesha/ayesha.json",
+
+  "character_lock": {
+    "id": "AYESHA_HUMAN_001",
+    "age": 11,
+    "consistency": "Use the exact same approved Ayesha reference image in every shot. Never change her face, eyes, nose, lips, skin tone, age, body proportions, hijab or dress."
+  },
+
+  "cast": {
+    "father": {
+      "id": "AYESHA_FATHER_001",
+      "age": 38,
+      "identity": "38-year-old Pakistani father, realistic Pakistani man with natural human facial features, warm brown eyes, short neat dark-brown hair, short well-trimmed dark beard, wheatish warm skin tone, kind gentle smile, wearing a simple light sky-blue cotton Pakistani shalwar kameez with full sleeves",
+      "personality": "Loving, patient, kind and educational"
+    },
+    "mother": {
+      "id": "AYESHA_MOTHER_001",
+      "age": 34,
+      "identity": "34-year-old Pakistani mother, realistic Pakistani woman with natural human facial features, warm brown eyes, soft kind smile, wheatish warm skin tone, wearing a simple beige hijab neatly wrapped with full hair, neck and chest coverage and a modest traditional Pakistani shalwar kameez in soft cream and beige cotton with full sleeves",
+      "personality": "Loving, caring and gentle"
+    },
+    "grandfather": {
+      "id": "AYESHA_GRANDFATHER_001",
+      "age": 68,
+      "identity": "68-year-old elderly Pakistani grandfather, realistic Pakistani man with natural aged facial features, gentle wrinkles, kind brown eyes, full neat white beard, short white hair under a white knitted prayer cap, wheatish skin tone, wearing a traditional white cotton shalwar kameez with full sleeves",
+      "personality": "Wise, kind and affectionate"
+    },
+    "grandmother": {
+      "id": "AYESHA_GRANDMOTHER_001",
+      "age": 64,
+      "identity": "64-year-old elderly Pakistani grandmother, realistic Pakistani woman with natural aged facial features, soft wrinkles, warm brown eyes, loving smile, wheatish skin tone, wearing a soft lavender-grey headscarf fully covering hair and neck and a modest traditional Pakistani shalwar kameez in muted lavender cotton with full sleeves",
+      "personality": "Loving and affectionate"
+    }
+  },
+
+  "seating": {
+    "note": "Fixed seating so every shot matches. Seen from the camera side of the table, left to right.",
+    "order": ["grandfather", "grandmother", "ayesha", "father", "mother", "(empty sixth chair)"]
+  },
+
+  "environment_lock": {
+    "location": "A realistic middle-class Pakistani family home",
+    "dining_room": "Large wooden dining table with six comfortable wooden dining chairs, clean cream tablecloth, fresh roti in a basket, a bowl of daal, a bowl of vegetable curry, a small salad plate, a glass water jug and drinking glasses, a white plate in front of each person",
+    "decoration": "Natural household furniture, realistic painted walls, curtains, tiled flooring, framed family photographs, an indoor plant, a hanging lamp",
+    "lighting": "Warm evening indoor lighting from the hanging lamp, soft dusk light at the window",
+    "atmosphere": "Authentic Pakistani family environment",
+    "avoid": ["Luxury mansion", "Fantasy environment", "Western restaurant", "Artificial cartoon backgrounds"]
+  },
+
+  "voices": {
+    "ayesha": "Young Pakistani girl's voice (around 10-11), sweet, innocent and natural, clear Urdu, slightly curious and cheerful, natural speaking speed",
+    "father": "Adult Pakistani male voice (late 30s), warm and gentle, calm educational tone, clear Urdu, natural conversational delivery",
+    "mother": "Adult Pakistani female voice (mid 30s), soft, caring and affectionate, natural Pakistani Urdu accent",
+    "grandfather": "Elderly Pakistani male voice, slow and gentle, warm and wise",
+    "grandmother": "Elderly Pakistani female voice, loving and affectionate, soft conversational delivery",
+    "narrator": "Clear friendly storytelling voice, standard Urdu, warm and calm"
+  },
+
+  "audio": {
+    "language": "Urdu (Arabic for the dua)",
+    "background": "Soft natural indoor room ambience only, no music: faint ceiling fan hum, gentle cutlery and plate sounds",
+    "rules": [
+      "Dialogue always louder than ambience",
+      "Only one character speaks at a time",
+      "No music anywhere, and nothing but room tone under the Arabic dua",
+      "Keep the Arabic pronunciation clear"
+    ],
+    "dialogue_sync": "Accurate Urdu lip synchronization"
+  },
+
+  "animation_rules": {
+    "face_consistency": true,
+    "natural_blinking": true,
+    "natural_lip_sync": true,
+    "realistic_hand_movements": true,
+    "realistic_sitting": true,
+    "natural_head_movements": true,
+    "natural_facial_expressions": true,
+    "no_exaggerated_movements": true,
+    "no_sudden_camera_transitions": true
+  },
+
+  "post_production_text": {
+    "arabic_dua": "بِسْمِ اللّٰهِ وَعَلَى بَرَكَةِ اللّٰهِ",
+    "arabic_roman": "Bismillahi wa 'ala barakatillah",
+    "translation_urdu": "اللہ کے نام سے اور اللہ کی برکت کے ساتھ۔",
+    "ending_text": "آج ہم نے ایک نئی اسلامی بات سیکھی!",
+    "rule": "Add all on-screen text (Arabic, Urdu subtitles, titles) in the editor as overlays. Never ask the video model to draw lettering."
+  },
+
+  "negative_prompt": [
+    "Cartoon characters", "Anime", "Pixar style", "Doll faces", "Oversized eyes",
+    "Different faces between shots", "Changing clothing", "Changing hijab",
+    "Adult appearance for the child", "Plastic skin", "Extra fingers", "Distorted hands",
+    "Unnatural mouth movements", "Exaggerated cartoon movements", "Sudden camera transitions",
+    "Luxury mansion", "Western restaurant", "Fantasy background",
+    "Incorrect Arabic lettering", "Any on-screen text or captions", "Vertical framing",
+    "Background music"
+  ]
+}

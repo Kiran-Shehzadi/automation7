@@ -39,17 +39,55 @@ def load(project_dir: str):
     return project, shots, character
 
 
-def shot_prompt(shot, project, ayesha_id, mother_id) -> str:
+def cast_identities(project, character) -> dict:
+    """Speaker key -> identity text. Ayesha comes from her character file; the rest
+    from project["cast"] (or the older single project["mother_character"])."""
+    ids = {"ayesha": identity_block(character)}
+    for key, c in project.get("cast", {}).items():
+        ids[key] = c["identity"]
+    if "mother_character" in project:
+        ids.setdefault("mother", project["mother_character"]["identity"])
+    return ids
+
+
+def orientation(project) -> str:
+    w, h = (int(v) for v in project["project"]["aspect_ratio"].split(":"))
+    return "Vertical" if h > w else "Widescreen" if w > h else "Square"
+
+
+def line_times(shot):
+    """(start, end) seconds within the shot for each dialogue line. Uses the line's own
+    start/end when given, otherwise splits the shot evenly between its lines."""
+    lines = shot["dialogue"]
+    if not lines:
+        return []
+    span = shot["duration"] / len(lines)
+    return [(d.get("start", i * span + 0.2), d.get("end", (i + 1) * span - 0.2))
+            for i, d in enumerate(lines)]
+
+
+def voice_file(shot, i, d) -> str:
+    return f"{shot['id']}_{i + 1}_{d['speaker']}.wav"
+
+
+def overlay_text(shot) -> list:
+    out = []
+    if shot.get("overlay"):
+        out.append(shot["overlay"].replace("\n", " / "))
+    for o in shot.get("overlays", []):
+        out.append(" / ".join(x for x in (o["text"], o.get("sub", "")) if x)
+                   + f" ({o['type']}, {o['start']:g}–{o['end']:g}s)")
+    return out
+
+
+def shot_prompt(shot, project, ids) -> str:
     env = project["environment_lock"]
     meta = project["project"]
-    cast = []
-    if "ayesha" in shot["characters"]:
-        cast.append(f"AYESHA: {ayesha_id}")
-    if "mother" in shot["characters"]:
-        cast.append(f"MOTHER: {mother_id}")
+    order = sorted(shot["characters"], key=lambda k: k != "ayesha")  # Ayesha first
+    cast = [f"{k.upper()}: {ids[k]}" for k in order if k in ids]
     room = env.get(shot["location"], "")
     parts = [
-        f"Vertical {meta['aspect_ratio']} {meta['visual_style'].lower()} video, "
+        f"{orientation(project)} {meta['aspect_ratio']} {meta['visual_style'].lower()} video, "
         f"real human cinematography, {meta['resolution']}, {meta['fps']}fps.",
         f"Setting: {env['location']}; {room}; {env['decoration']}; "
         f"{env['lighting'].lower()}; {env['atmosphere'][0].lower() + env['atmosphere'][1:]}.",
@@ -62,7 +100,8 @@ def shot_prompt(shot, project, ayesha_id, mother_id) -> str:
     parts.append(f"Camera: {shot['camera']}.")
     if shot["dialogue"]:
         spoken = " ".join(
-            f"{d['speaker'].capitalize()} says in Urdu: \"{d['roman']}\""
+            f"{d['speaker'].capitalize()} says in {'Arabic' if d.get('arabic') else 'Urdu'}: "
+            f"\"{d['roman']}\""
             + (" (voice-over, not on screen)" if d["speaker"] == "narrator" else "")
             for d in shot["dialogue"]
         )
@@ -82,8 +121,7 @@ def build(project_dir: str) -> None:
     if total != target:
         sys.exit(f"Shot durations total {total}s, expected {target}s")
 
-    ayesha_id = identity_block(character)
-    mother_id = project["mother_character"]["identity"]
+    ids = cast_identities(project, character)
     negative = ", ".join(project["negative_prompt"])
     out_dir = os.path.join(project_dir, "build")
     os.makedirs(out_dir, exist_ok=True)
@@ -93,20 +131,16 @@ def build(project_dir: str) -> None:
     for shot in shots:
         start, end = t, t + shot["duration"]
         t = end
-        prompt = shot_prompt(shot, project, ayesha_id, mother_id)
+        prompt = shot_prompt(shot, project, ids)
         rows.append({**shot, "start": ts(start), "end": ts(end), "prompt": prompt,
                      "negative_prompt": negative})
-        lines = shot["dialogue"]
-        # Split the shot evenly between its lines for subtitle timing.
-        if lines:
-            span = shot["duration"] / len(lines)
-            for i, d in enumerate(lines):
-                a, b = start + i * span + 0.2, start + (i + 1) * span - 0.2
-                srt.append((a, b, d["urdu"]))
-                voice.setdefault(d["speaker"], []).append((shot["id"], ts(start), d))
+        for i, (d, (a, b)) in enumerate(zip(shot["dialogue"], line_times(shot))):
+            srt.append((start + a, start + b, d["urdu"]))
+            voice.setdefault(d["speaker"], []).append(
+                (shot["id"], ts(start + a), d, voice_file(shot, i, d), b - a))
 
     with open(os.path.join(out_dir, "shot_prompts.json"), "w", encoding="utf-8") as fh:
-        json.dump({"ayesha_identity": ayesha_id, "mother_identity": mother_id,
+        json.dump({**{f"{k}_identity": v for k, v in ids.items()},
                    "negative_prompt": negative, "shots": rows},
                   fh, indent=2, ensure_ascii=False)
 
@@ -117,26 +151,28 @@ def build(project_dir: str) -> None:
     title = project["project"]["title"]
     md = [f"# {title}: Shot Prompts", "",
           "_Generated by `scripts/build_video_package.py`. Edit `shots.json`, then rebuild._", "",
-          f"**Format:** {project['project']['aspect_ratio']} vertical · "
+          f"**Format:** {project['project']['aspect_ratio']} {orientation(project).lower()} · "
           f"{target // 60}:{target % 60:02d} · Urdu · {len(rows)} shots", "",
           "## Negative prompt (use on every shot)", "", "```text", negative, "```", ""]
     for r in rows:
         md += [f"## Shot {r['id']}: {r['scene_title']} ({r['start']}–{r['end']}, {r['duration']}s)", ""]
         for d in r["dialogue"]:
             md.append(f"- **{d['speaker'].capitalize()}:** {d['urdu']}  \n  _{d['roman']}_")
-        if r.get("overlay"):
-            md.append(f"- **Text overlay (add in editor):** {r['overlay'].replace(chr(10), ' / ')}")
+        for ov in overlay_text(r):
+            md.append(f"- **Text overlay (add in editor):** {ov}")
         md += ["", "```text", r["prompt"], "```", ""]
     with open(os.path.join(out_dir, "SHOT_PROMPTS.md"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(md))
 
     vmd = [f"# {title}: Voice Script (Urdu)", "",
-           "Record each line separately as a WAV file named `<shot>_<speaker>.wav`.", ""]
+           "Record each line separately, one WAV file per line, named as in the **File** column, "
+           "and keep each take about as long as **Length**.", ""]
     for speaker, items in voice.items():
         vmd += [f"## {speaker.capitalize()}", "",
                 f"_Voice:_ {project['voices'][speaker]}", "",
-                "| Shot | Time | Urdu | Roman Urdu |", "|---|---|---|---|"]
-        vmd += [f"| {sid} | {tm} | {d['urdu']} | {d['roman']} |" for sid, tm, d in items]
+                "| Shot | Time | Length | File | Line | Roman |", "|---|---|---|---|---|---|"]
+        vmd += [f"| {sid} | {tm} | {ln:.1f}s | `{fn}` | {d['urdu']} | {d['roman']} |"
+                for sid, tm, d, fn, ln in items]
         vmd.append("")
     with open(os.path.join(out_dir, "VOICE_SCRIPT.md"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(vmd))

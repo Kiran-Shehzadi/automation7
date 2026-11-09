@@ -17,10 +17,14 @@ projects/
     PRODUCTION.md  # how to generate, voice, and assemble the video
     build/         # generated: SHOT_PROMPTS.md, shot_prompts.json, subtitles_ur.srt, VOICE_SCRIPT.md
       animation/   # rendered 2D animation: clips/<shot>.mp4 + full 2:00 9:16 video
+  ayesha-dua-before-eating/   # Little Muslim Learners Ep. 01, 16:9, 5-person family dinner
+    project.json, shots.json, PRODUCTION.md, build/ (same layout; animation/ has the 16:9 video)
+    audio/         # optional: one WAV per dialogue line, mixed in and lip-synced on render
 scripts/
   build_prompts.py        # turns a character JSON into prompts
   build_video_package.py  # turns a project folder into shot prompts, subtitles and voice script
   render_animation.py     # renders the 21 shots as 2D animated 9:16 clips + the full video
+  render_episode.py       # renders the 16:9 dinner episode; mixes and lip-syncs voice WAVs
 ```
 
 ## Regenerating prompts
@@ -58,3 +62,15 @@ python3 scripts/render_animation.py projects/ayesha-learns-bismillah --no-subs  
 The clips have Urdu subtitles and home ambience sound but **no voices**. Record
 the lines in `build/VOICE_SCRIPT.md`. Mouths move during each line's subtitle
 window, so place each recording at its subtitle time.
+
+## Rendering the 16:9 dinner episode
+
+```bash
+python3 scripts/build_video_package.py projects/ayesha-dua-before-eating
+python3 scripts/render_episode.py projects/ayesha-dua-before-eating            # ~2.5 min
+python3 scripts/render_episode.py projects/ayesha-dua-before-eating --preview  # PNG stills only
+```
+
+Camera moves, line timing and on-screen text all come from `shots.json`. Put recorded voices in
+`projects/ayesha-dua-before-eating/audio/` using the file names in `build/VOICE_SCRIPT.md`. On the next
+render each recording is mixed in at its line time, and the speaker's mouth follows its loudness.

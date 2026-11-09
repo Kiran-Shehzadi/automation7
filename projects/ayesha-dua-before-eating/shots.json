@@ -1,0 +1,793 @@
+{
+  "shots": [
+    {
+      "id": "1.1",
+      "scene": 1,
+      "scene_title": "Family Dinner",
+      "duration": 7,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Wide establishing shot of the whole dining room from the camera side of the table, very slow gentle push-in",
+      "action": "The family sits around the large wooden dining table with food already served: grandfather, grandmother, Ayesha, father and mother, an empty sixth chair; they settle in, glance at each other and smile",
+      "expression": "Calm, warm, content",
+      "dialogue": [],
+      "overlays": [
+        {
+          "type": "title",
+          "text": "Little Muslim Learners",
+          "sub": "قسط ۱: عائشہ نے کھانے سے پہلے کی دعا سیکھی",
+          "start": 0.6,
+          "end": 6.4
+        }
+      ],
+      "sfx": "Soft indoor ambience, a chair gently pulled in, light plate clink",
+      "cam": {
+        "from": [
+          1150,
+          980,
+          0.74
+        ],
+        "to": [
+          1150,
+          1000,
+          0.8
+        ]
+      }
+    },
+    {
+      "id": "1.2",
+      "scene": 1,
+      "scene_title": "Family Dinner",
+      "duration": 8,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Slow continuous dolly-in from the wide shot towards the family, ending on a medium-wide of the table",
+      "action": "Family members pass the roti basket and settle; Ayesha sits happily between her grandmother and her father",
+      "expression": "Natural happiness",
+      "dialogue": [
+        {
+          "speaker": "narrator",
+          "urdu": "آج عائشہ اپنے خاندان کے ساتھ کھانا کھانے بیٹھی ہے۔",
+          "roman": "Aaj Ayesha apne khandaan ke saath khana khaane baithi hai.",
+          "start": 1.0,
+          "end": 6.4
+        }
+      ],
+      "overlays": [],
+      "sfx": "Soft indoor ambience, gentle cutlery clink",
+      "cam": {
+        "from": [
+          1150,
+          1000,
+          0.8
+        ],
+        "to": [
+          1150,
+          1050,
+          1.05
+        ]
+      }
+    },
+    {
+      "id": "2.1",
+      "scene": 2,
+      "scene_title": "Father Introduces the Lesson",
+      "duration": 6,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Medium two-shot of father and Ayesha",
+      "action": "Father turns towards Ayesha with a gentle smile and speaks softly; Ayesha looks up at him",
+      "expression": "Father: gentle smile; Ayesha: attentive",
+      "dialogue": [
+        {
+          "speaker": "father",
+          "urdu": "عائشہ بیٹا! آج میں تمہیں ایک بہت پیاری اور ضروری بات سکھانے والا ہوں۔",
+          "roman": "Ayesha beta! Aaj main tumhein aik bohat pyaari aur zaroori baat sikhaane wala hoon.",
+          "start": 0.4,
+          "end": 5.6
+        }
+      ],
+      "overlays": [],
+      "sfx": "Soft indoor room ambience, faint ceiling fan hum",
+      "cam": {
+        "from": [
+          1150,
+          1080,
+          1.5
+        ],
+        "to": [
+          1160,
+          1075,
+          1.6
+        ]
+      }
+    },
+    {
+      "id": "2.2",
+      "scene": 2,
+      "scene_title": "Father Introduces the Lesson",
+      "duration": 4,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Medium close-up on Ayesha, father's shoulder soft in the foreground edge",
+      "action": "Ayesha tilts her head with curiosity and answers her father",
+      "expression": "Curious, cheerful",
+      "dialogue": [
+        {
+          "speaker": "ayesha",
+          "urdu": "جی ابو! آج آپ مجھے کیا سکھائیں گے؟",
+          "roman": "Ji Abbu! Aaj aap mujhe kya sikhaayenge?",
+          "start": 0.3,
+          "end": 3.6
+        }
+      ],
+      "overlays": [],
+      "sfx": "Soft indoor room ambience, faint ceiling fan hum",
+      "cam": {
+        "from": [
+          1010,
+          1120,
+          2.3
+        ],
+        "to": [
+          1000,
+          1118,
+          2.4
+        ]
+      }
+    },
+    {
+      "id": "2.3",
+      "scene": 2,
+      "scene_title": "Father Introduces the Lesson",
+      "duration": 5,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Medium close-up on father",
+      "action": "Father nods kindly and explains with a small open-hand gesture",
+      "expression": "Warm, patient smile",
+      "dialogue": [
+        {
+          "speaker": "father",
+          "urdu": "آج میں تمہیں کھانا کھانے سے پہلے کی دعا سکھاؤں گا۔",
+          "roman": "Aaj main tumhein khana khaane se pehle ki dua sikhaaunga.",
+          "start": 0.4,
+          "end": 4.6
+        }
+      ],
+      "overlays": [],
+      "sfx": "Soft indoor room ambience, faint ceiling fan hum",
+      "cam": {
+        "from": [
+          1310,
+          1030,
+          2.2
+        ],
+        "to": [
+          1320,
+          1035,
+          2.3
+        ]
+      }
+    },
+    {
+      "id": "2.4",
+      "scene": 2,
+      "scene_title": "Father Introduces the Lesson",
+      "duration": 5,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Medium two-shot, Ayesha favoured",
+      "action": "Ayesha raises her eyebrows in wonder and asks; father listens and smiles",
+      "expression": "Ayesha: curious, surprised; father: gentle",
+      "dialogue": [
+        {
+          "speaker": "ayesha",
+          "urdu": "ابو! کیا کھانا کھانے سے پہلے بھی کوئی دعا پڑھنی ہوتی ہے؟",
+          "roman": "Abbu! Kya khana khaane se pehle bhi koi dua parhni hoti hai?",
+          "start": 0.3,
+          "end": 4.6
+        }
+      ],
+      "overlays": [],
+      "sfx": "Soft indoor room ambience, faint ceiling fan hum",
+      "cam": {
+        "from": [
+          1100,
+          1090,
+          1.7
+        ],
+        "to": [
+          1080,
+          1095,
+          1.8
+        ]
+      }
+    },
+    {
+      "id": "3.1",
+      "scene": 3,
+      "scene_title": "Father Teaches the Dua",
+      "duration": 8,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Close-up on father, slow and steady",
+      "action": "Father recites the dua slowly and clearly, word by word, looking lovingly at Ayesha",
+      "expression": "Calm, reverent, gentle",
+      "dialogue": [
+        {
+          "speaker": "father",
+          "urdu": "بِسْمِ اللّٰهِ وَعَلَى بَرَكَةِ اللّٰهِ",
+          "roman": "Bismillahi wa 'ala barakatillah.",
+          "start": 1.0,
+          "end": 6.8,
+          "arabic": true
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arabic",
+          "text": "بِسْمِ اللّٰهِ وَعَلَى بَرَكَةِ اللّٰهِ",
+          "roman": "Bismillahi wa 'ala barakatillah.",
+          "start": 0.8,
+          "end": 7.7
+        }
+      ],
+      "sfx": "Room tone only, no music, no cutlery",
+      "cam": {
+        "from": [
+          1320,
+          1025,
+          2.5
+        ],
+        "to": [
+          1320,
+          1020,
+          2.7
+        ]
+      }
+    },
+    {
+      "id": "3.2",
+      "scene": 3,
+      "scene_title": "Father Teaches the Dua",
+      "duration": 8,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Close-up on Ayesha's face, natural lip movement",
+      "action": "Ayesha repeats the dua carefully, concentrating, then smiles",
+      "expression": "Concentrating, then happy",
+      "dialogue": [
+        {
+          "speaker": "ayesha",
+          "urdu": "بِسْمِ اللّٰهِ وَعَلَى بَرَكَةِ اللّٰهِ",
+          "roman": "Bismillahi wa 'ala barakatillah.",
+          "start": 1.0,
+          "end": 6.6,
+          "arabic": true
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arabic",
+          "text": "بِسْمِ اللّٰهِ وَعَلَى بَرَكَةِ اللّٰهِ",
+          "roman": "Bismillahi wa 'ala barakatillah.",
+          "start": 0.6,
+          "end": 7.7
+        }
+      ],
+      "sfx": "Room tone only, no music, no cutlery",
+      "cam": {
+        "from": [
+          980,
+          1112,
+          2.9
+        ],
+        "to": [
+          980,
+          1110,
+          3.1
+        ]
+      }
+    },
+    {
+      "id": "3.3",
+      "scene": 3,
+      "scene_title": "Father Teaches the Dua",
+      "duration": 7,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Medium-wide of the family listening",
+      "action": "The whole family listens with soft smiles; grandmother nods; father explains the meaning",
+      "expression": "Warm, proud",
+      "dialogue": [
+        {
+          "speaker": "narrator",
+          "urdu": "اللہ کے نام سے اور اللہ کی برکت کے ساتھ۔",
+          "roman": "Allah ke naam se aur Allah ki barkat ke saath.",
+          "start": 1.2,
+          "end": 5.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "translation",
+          "text": "اللہ کے نام سے اور اللہ کی برکت کے ساتھ۔",
+          "start": 0.8,
+          "end": 6.7
+        }
+      ],
+      "sfx": "Soft indoor room ambience, faint ceiling fan hum",
+      "cam": {
+        "from": [
+          1150,
+          1060,
+          1.1
+        ],
+        "to": [
+          1150,
+          1060,
+          1.15
+        ]
+      }
+    },
+    {
+      "id": "3.4",
+      "scene": 3,
+      "scene_title": "Father Teaches the Dua",
+      "duration": 7,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Gentle medium shot of Ayesha and father together",
+      "action": "Ayesha looks at her father and smiles brightly; father nods with approval",
+      "expression": "Happy, proud",
+      "dialogue": [],
+      "overlays": [
+        {
+          "type": "arabic",
+          "text": "بِسْمِ اللّٰهِ وَعَلَى بَرَكَةِ اللّٰهِ",
+          "roman": "Bismillahi wa 'ala barakatillah.",
+          "start": 0.4,
+          "end": 6.6
+        },
+        {
+          "type": "translation",
+          "text": "اللہ کے نام سے اور اللہ کی برکت کے ساتھ۔",
+          "start": 1.0,
+          "end": 6.6
+        }
+      ],
+      "sfx": "Soft room tone",
+      "cam": {
+        "from": [
+          1150,
+          1085,
+          1.6
+        ],
+        "to": [
+          1150,
+          1080,
+          1.5
+        ]
+      }
+    },
+    {
+      "id": "4.1",
+      "scene": 4,
+      "scene_title": "Family Appreciation",
+      "duration": 6,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Medium close-up on grandmother",
+      "action": "Grandmother smiles lovingly at Ayesha and speaks with affection",
+      "expression": "Loving, proud smile",
+      "dialogue": [
+        {
+          "speaker": "grandmother",
+          "urdu": "ماشاءاللہ! ہماری عائشہ تو بہت سمجھدار ہو گئی ہے۔",
+          "roman": "MashaAllah! Hamari Ayesha to bohat samajhdaar ho gayi hai.",
+          "start": 0.4,
+          "end": 5.4
+        }
+      ],
+      "overlays": [],
+      "sfx": "Soft indoor room ambience, faint ceiling fan hum",
+      "cam": {
+        "from": [
+          650,
+          1030,
+          2.2
+        ],
+        "to": [
+          640,
+          1030,
+          2.3
+        ]
+      }
+    },
+    {
+      "id": "4.2",
+      "scene": 4,
+      "scene_title": "Family Appreciation",
+      "duration": 7,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Medium close-up on grandfather",
+      "action": "Grandfather looks towards Ayesha lovingly and gives gentle advice",
+      "expression": "Wise, affectionate",
+      "dialogue": [
+        {
+          "speaker": "grandfather",
+          "urdu": "بیٹا! ہمیشہ کھانا شروع کرنے سے پہلے اللہ تعالیٰ کا نام لینا یاد رکھنا۔",
+          "roman": "Beta! Hamesha khana shuru karne se pehle Allah Ta'ala ka naam lena yaad rakhna.",
+          "start": 0.4,
+          "end": 6.5
+        }
+      ],
+      "overlays": [],
+      "sfx": "Soft indoor room ambience, faint ceiling fan hum",
+      "cam": {
+        "from": [
+          310,
+          1025,
+          2.2
+        ],
+        "to": [
+          300,
+          1025,
+          2.3
+        ]
+      }
+    },
+    {
+      "id": "4.3",
+      "scene": 4,
+      "scene_title": "Family Appreciation",
+      "duration": 7,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Medium close-up on mother",
+      "action": "Mother smiles and adds advice, lifting her right hand a little",
+      "expression": "Caring smile",
+      "dialogue": [
+        {
+          "speaker": "mother",
+          "urdu": "اور کھانا دائیں ہاتھ سے کھانا چاہیے اور اپنے سامنے سے کھانا چاہیے۔",
+          "roman": "Aur khana daayen haath se khaana chahiye aur apne saamne se khaana chahiye.",
+          "start": 0.4,
+          "end": 6.5
+        }
+      ],
+      "overlays": [],
+      "sfx": "Soft indoor room ambience, faint ceiling fan hum",
+      "cam": {
+        "from": [
+          1650,
+          1030,
+          2.2
+        ],
+        "to": [
+          1660,
+          1030,
+          2.3
+        ]
+      }
+    },
+    {
+      "id": "4.4",
+      "scene": 4,
+      "scene_title": "Family Appreciation",
+      "duration": 5,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Medium-wide of the family, Ayesha centred",
+      "action": "Ayesha looks around at everyone and nods happily",
+      "expression": "Happy, confident",
+      "dialogue": [
+        {
+          "speaker": "ayesha",
+          "urdu": "جی سب! میں ہمیشہ یاد رکھوں گی۔",
+          "roman": "Ji sab! Main hamesha yaad rakhungi.",
+          "start": 0.4,
+          "end": 3.8
+        }
+      ],
+      "overlays": [],
+      "sfx": "Soft indoor room ambience, faint ceiling fan hum",
+      "cam": {
+        "from": [
+          1150,
+          1065,
+          1.15
+        ],
+        "to": [
+          1100,
+          1075,
+          1.3
+        ]
+      }
+    },
+    {
+      "id": "5.1",
+      "scene": 5,
+      "scene_title": "Ayesha Repeats the Dua",
+      "duration": 6,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Medium close-up on Ayesha at the table",
+      "action": "Ayesha sits up happily and recites the dua confidently on her own",
+      "expression": "Confident, happy",
+      "dialogue": [
+        {
+          "speaker": "ayesha",
+          "urdu": "بِسْمِ اللّٰهِ وَعَلَى بَرَكَةِ اللّٰهِ",
+          "roman": "Bismillahi wa 'ala barakatillah.",
+          "start": 0.5,
+          "end": 5.2,
+          "arabic": true
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arabic",
+          "text": "بِسْمِ اللّٰهِ وَعَلَى بَرَكَةِ اللّٰهِ",
+          "roman": "Bismillahi wa 'ala barakatillah.",
+          "start": 0.3,
+          "end": 5.8
+        }
+      ],
+      "sfx": "Room tone only, no music, no cutlery",
+      "cam": {
+        "from": [
+          980,
+          1140,
+          2.2
+        ],
+        "to": [
+          980,
+          1135,
+          2.4
+        ]
+      }
+    },
+    {
+      "id": "5.2",
+      "scene": 5,
+      "scene_title": "Ayesha Repeats the Dua",
+      "duration": 9,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Medium-wide of the table, slow drift",
+      "action": "Ayesha tears a small piece of roti and begins eating with her right hand from the food in front of her; all family members smile and begin eating too",
+      "expression": "Content, happy",
+      "dialogue": [],
+      "overlays": [],
+      "sfx": "Soft cutlery and plate clinks, room ambience",
+      "cam": {
+        "from": [
+          1100,
+          1110,
+          1.35
+        ],
+        "to": [
+          1150,
+          1070,
+          1.05
+        ]
+      },
+      "anim": {
+        "eat": {
+          "ayesha": [
+            0.8,
+            8.6
+          ],
+          "father": [
+            3.0,
+            8.8
+          ],
+          "grandmother": [
+            3.6,
+            8.8
+          ],
+          "mother": [
+            4.2,
+            8.8
+          ],
+          "grandfather": [
+            3.2,
+            8.8
+          ]
+        }
+      }
+    },
+    {
+      "id": "6.1",
+      "scene": 6,
+      "scene_title": "Lesson for Children",
+      "duration": 7,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Close-up on Ayesha looking directly into the camera",
+      "action": "Ayesha turns to the camera, smiles naturally and speaks to the children watching",
+      "expression": "Warm, friendly smile",
+      "dialogue": [
+        {
+          "speaker": "ayesha",
+          "urdu": "پیارے بچو! آپ بھی یاد رکھیں، کھانا شروع کرنے سے پہلے اللہ تعالیٰ کا نام ضرور لیں۔",
+          "roman": "Pyaare bachcho! Aap bhi yaad rakhein, khana shuru karne se pehle Allah Ta'ala ka naam zaroor lein.",
+          "start": 0.4,
+          "end": 6.6
+        }
+      ],
+      "overlays": [],
+      "sfx": "Soft indoor room ambience, faint ceiling fan hum",
+      "cam": {
+        "from": [
+          980,
+          1105,
+          2.8
+        ],
+        "to": [
+          980,
+          1105,
+          3.0
+        ]
+      },
+      "anim": {
+        "to_camera": [
+          "ayesha"
+        ]
+      }
+    },
+    {
+      "id": "6.2",
+      "scene": 6,
+      "scene_title": "Lesson for Children",
+      "duration": 8,
+      "location": "dining_room",
+      "characters": [
+        "grandfather",
+        "grandmother",
+        "ayesha",
+        "father",
+        "mother"
+      ],
+      "camera": "Slow pull-back to the wide family shot under the end card, fade to black",
+      "action": "The family smiles together at the table; end card text appears",
+      "expression": "Happy",
+      "dialogue": [
+        {
+          "speaker": "narrator",
+          "urdu": "اگلی ویڈیو میں پھر ملیں گے۔ اللہ حافظ!",
+          "roman": "Agli video mein phir milenge. Allah Hafiz!",
+          "start": 3.4,
+          "end": 7.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "endcard",
+          "text": "بِسْمِ اللّٰهِ وَعَلَى بَرَكَةِ اللّٰهِ",
+          "sub": "آج ہم نے ایک نئی اسلامی بات سیکھی!",
+          "start": 0.3,
+          "end": 8.0
+        }
+      ],
+      "sfx": "Soft room ambience fading out",
+      "cam": {
+        "from": [
+          1150,
+          1060,
+          1.1
+        ],
+        "to": [
+          1150,
+          990,
+          0.78
+        ]
+      }
+    }
+  ]
+}
