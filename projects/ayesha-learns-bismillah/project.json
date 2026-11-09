@@ -1,0 +1,77 @@
+{
+  "project": {
+    "title": "Ayesha Learns Bismillah",
+    "title_urdu": "عائشہ نے بسم اللہ سیکھی",
+    "category": "Children's Islamic Education",
+    "duration_seconds": 120,
+    "visual_style": "Ultra photorealistic human",
+    "aspect_ratio": "9:16",
+    "resolution": "2160x3840 (4K vertical)",
+    "language": "Urdu",
+    "fps": 24
+  },
+
+  "character_file": "../../characters/ayesha/ayesha.json",
+
+  "character_lock": {
+    "id": "AYESHA_HUMAN_001",
+    "age": 11,
+    "consistency": "Use exactly the same original character identity, face, facial proportions, skin tone and clothing in every scene."
+  },
+
+  "mother_character": {
+    "id": "MOTHER_HUMAN_001",
+    "age": 34,
+    "nationality": "Pakistani",
+    "identity": "34-year-old Pakistani mother, realistic Pakistani woman with natural human facial features, warm brown eyes, soft kind smile, wheatish warm skin tone, wearing a simple beige hijab neatly wrapped with full hair, neck and chest coverage and a modest traditional Pakistani shalwar kameez in soft cream and beige cotton with full sleeves",
+    "personality": "Patient, loving, gentle and caring",
+    "note": "Outfit colour (cream/beige) and skin tone are fixed here so she stays identical across shots."
+  },
+
+  "environment_lock": {
+    "location": "A realistic middle-class Pakistani family home",
+    "living_room": "Comfortable sofa, curtains, simple furniture and natural daylight",
+    "kitchen": "Clean practical Pakistani home kitchen, cabinets, cooking utensils and stove",
+    "dining_room": "Wooden dining table, simple chairs, plates and drinking glasses",
+    "decoration": "Simple family photographs, indoor plants and modest home decoration",
+    "lighting": "Natural warm daylight",
+    "atmosphere": "Authentic Pakistani family environment",
+    "avoid": ["Luxury mansion", "Fantasy interiors", "Western restaurant", "Artificial cartoon backgrounds"]
+  },
+
+  "voices": {
+    "ayesha": "Natural young Pakistani girl's voice (around 11), soft, clear Urdu, light Karachi/Lahore urban accent",
+    "mother": "Warm gentle Pakistani woman's voice, calm pace, loving tone",
+    "narrator": "Clear friendly female voice, storytelling pace, standard Urdu"
+  },
+
+  "audio": {
+    "language": "Urdu (Arabic only for Bismillah)",
+    "background": "Soft natural home ambience only, no music: distant birds, light kitchen sounds, ceiling fan hum",
+    "dialogue_sync": "Accurate lip synchronization"
+  },
+
+  "animation_rules": {
+    "face_consistency": true,
+    "natural_eye_movement": true,
+    "natural_lip_sync": true,
+    "realistic_hand_movements": true,
+    "natural_walking": true,
+    "realistic_sitting": true,
+    "natural_facial_expressions": true,
+    "no_exaggerated_movements": true
+  },
+
+  "post_production_text": {
+    "arabic_bismillah": "بِسْمِ اللّٰهِ",
+    "rule": "Add all on-screen text (Arabic and Urdu) in the editor as overlays. Never ask the video model to draw lettering."
+  },
+
+  "negative_prompt": [
+    "Cartoon characters", "Anime", "Pixar", "Disney", "Doll faces", "Chubby faces",
+    "Different faces between scenes", "Changing clothing", "Changing hijab",
+    "Adult appearance for child", "Unrealistic skin", "Extra fingers", "Distorted hands",
+    "Artificial facial expressions", "Unrealistic Pakistani home", "Random background changes",
+    "Incorrect Arabic lettering", "Any on-screen text or captions", "Horizontal framing", "Background music"
+  ]
+}

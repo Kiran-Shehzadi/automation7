@@ -1,0 +1,150 @@
+#!/usr/bin/env python3
+"""Build a video production package from a project folder.
+
+Usage:
+    python3 scripts/build_video_package.py projects/ayesha-learns-bismillah
+
+Reads <project>/project.json and <project>/shots.json and writes into
+<project>/build/:
+  * SHOT_PROMPTS.md   - per-shot video-generation prompts (copy into your tool)
+  * shot_prompts.json - same, machine readable
+  * subtitles_ur.srt  - Urdu subtitles timed to the edit
+  * VOICE_SCRIPT.md   - lines grouped by speaker for voice recording / TTS
+Fails if the shot durations don't add up to project.duration_seconds.
+"""
+import json
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from build_prompts import identity_block  # noqa: E402
+
+
+def ts(seconds: float, srt: bool = False) -> str:
+    m, s = divmod(int(seconds), 60)
+    if srt:
+        h, m = divmod(m, 60)
+        return f"{h:02d}:{m:02d}:{s:02d},{int(round((seconds % 1) * 1000)):03d}"
+    return f"{m}:{s:02d}"
+
+
+def load(project_dir: str):
+    with open(os.path.join(project_dir, "project.json"), encoding="utf-8") as fh:
+        project = json.load(fh)
+    with open(os.path.join(project_dir, "shots.json"), encoding="utf-8") as fh:
+        shots = json.load(fh)["shots"]
+    char_path = os.path.normpath(os.path.join(project_dir, project["character_file"]))
+    with open(char_path, encoding="utf-8") as fh:
+        character = json.load(fh)
+    return project, shots, character
+
+
+def shot_prompt(shot, project, ayesha_id, mother_id) -> str:
+    env = project["environment_lock"]
+    meta = project["project"]
+    cast = []
+    if "ayesha" in shot["characters"]:
+        cast.append(f"AYESHA: {ayesha_id}")
+    if "mother" in shot["characters"]:
+        cast.append(f"MOTHER: {mother_id}")
+    room = env.get(shot["location"], "")
+    parts = [
+        f"Vertical {meta['aspect_ratio']} {meta['visual_style'].lower()} video, "
+        f"real human cinematography, {meta['resolution']}, {meta['fps']}fps.",
+        f"Setting: {env['location']}; {room}; {env['decoration']}; "
+        f"{env['lighting'].lower()}; {env['atmosphere'][0].lower() + env['atmosphere'][1:]}.",
+    ]
+    if cast:
+        parts.append("Characters (keep identical in every shot): " + " | ".join(cast) + ".")
+    parts.append(f"Action: {shot['action']}.")
+    if shot.get("expression"):
+        parts.append(f"Expression: {shot['expression'].lower()}.")
+    parts.append(f"Camera: {shot['camera']}.")
+    if shot["dialogue"]:
+        spoken = " ".join(
+            f"{d['speaker'].capitalize()} says in Urdu: \"{d['roman']}\""
+            + (" (voice-over, not on screen)" if d["speaker"] == "narrator" else "")
+            for d in shot["dialogue"]
+        )
+        parts.append(f"Audio: {spoken}. Accurate natural lip sync.")
+    parts.append(f"Sound: {shot['sfx']}. No music.")
+    parts.append(
+        "Motion: natural eye movement, realistic hands with five fingers, "
+        "natural walking and sitting, no exaggerated movement. No on-screen text."
+    )
+    return " ".join(parts)
+
+
+def build(project_dir: str) -> None:
+    project, shots, character = load(project_dir)
+    target = project["project"]["duration_seconds"]
+    total = sum(s["duration"] for s in shots)
+    if total != target:
+        sys.exit(f"Shot durations total {total}s, expected {target}s")
+
+    ayesha_id = identity_block(character)
+    mother_id = project["mother_character"]["identity"]
+    negative = ", ".join(project["negative_prompt"])
+    out_dir = os.path.join(project_dir, "build")
+    os.makedirs(out_dir, exist_ok=True)
+
+    t = 0
+    rows, srt, voice = [], [], {}
+    for shot in shots:
+        start, end = t, t + shot["duration"]
+        t = end
+        prompt = shot_prompt(shot, project, ayesha_id, mother_id)
+        rows.append({**shot, "start": ts(start), "end": ts(end), "prompt": prompt,
+                     "negative_prompt": negative})
+        lines = shot["dialogue"]
+        # Split the shot evenly between its lines for subtitle timing.
+        if lines:
+            span = shot["duration"] / len(lines)
+            for i, d in enumerate(lines):
+                a, b = start + i * span + 0.2, start + (i + 1) * span - 0.2
+                srt.append((a, b, d["urdu"]))
+                voice.setdefault(d["speaker"], []).append((shot["id"], ts(start), d))
+
+    with open(os.path.join(out_dir, "shot_prompts.json"), "w", encoding="utf-8") as fh:
+        json.dump({"ayesha_identity": ayesha_id, "mother_identity": mother_id,
+                   "negative_prompt": negative, "shots": rows},
+                  fh, indent=2, ensure_ascii=False)
+
+    with open(os.path.join(out_dir, "subtitles_ur.srt"), "w", encoding="utf-8") as fh:
+        for i, (a, b, text) in enumerate(srt, 1):
+            fh.write(f"{i}\n{ts(a, True)} --> {ts(b, True)}\n{text}\n\n")
+
+    title = project["project"]["title"]
+    md = [f"# {title}: Shot Prompts", "",
+          "_Generated by `scripts/build_video_package.py`. Edit `shots.json`, then rebuild._", "",
+          f"**Format:** {project['project']['aspect_ratio']} vertical · "
+          f"{target // 60}:{target % 60:02d} · Urdu · {len(rows)} shots", "",
+          "## Negative prompt (use on every shot)", "", "```text", negative, "```", ""]
+    for r in rows:
+        md += [f"## Shot {r['id']}: {r['scene_title']} ({r['start']}–{r['end']}, {r['duration']}s)", ""]
+        for d in r["dialogue"]:
+            md.append(f"- **{d['speaker'].capitalize()}:** {d['urdu']}  \n  _{d['roman']}_")
+        if r.get("overlay"):
+            md.append(f"- **Text overlay (add in editor):** {r['overlay'].replace(chr(10), ' / ')}")
+        md += ["", "```text", r["prompt"], "```", ""]
+    with open(os.path.join(out_dir, "SHOT_PROMPTS.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(md))
+
+    vmd = [f"# {title}: Voice Script (Urdu)", "",
+           "Record each line separately as a WAV file named `<shot>_<speaker>.wav`.", ""]
+    for speaker, items in voice.items():
+        vmd += [f"## {speaker.capitalize()}", "",
+                f"_Voice:_ {project['voices'][speaker]}", "",
+                "| Shot | Time | Urdu | Roman Urdu |", "|---|---|---|---|"]
+        vmd += [f"| {sid} | {tm} | {d['urdu']} | {d['roman']} |" for sid, tm, d in items]
+        vmd.append("")
+    with open(os.path.join(out_dir, "VOICE_SCRIPT.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(vmd))
+
+    print(f"OK: {len(rows)} shots, {total}s, {len(srt)} subtitle lines -> {out_dir}")
+
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        sys.exit(__doc__)
+    build(sys.argv[1])

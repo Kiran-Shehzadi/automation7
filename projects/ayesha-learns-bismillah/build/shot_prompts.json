@@ -1,0 +1,521 @@
+{
+  "ayesha_identity": "11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy",
+  "mother_identity": "34-year-old Pakistani mother, realistic Pakistani woman with natural human facial features, warm brown eyes, soft kind smile, wheatish warm skin tone, wearing a simple beige hijab neatly wrapped with full hair, neck and chest coverage and a modest traditional Pakistani shalwar kameez in soft cream and beige cotton with full sleeves",
+  "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music",
+  "shots": [
+    {
+      "id": "1.1",
+      "scene": 1,
+      "scene_title": "Ayesha at Home",
+      "duration": 6,
+      "location": "living_room",
+      "characters": [
+        "ayesha"
+      ],
+      "camera": "Wide vertical establishing shot, slow gentle push-in, eye level",
+      "action": "Ayesha walks naturally across the living room past the sofa and curtains towards the kitchen doorway, soft daylight through the window",
+      "expression": "Innocent gentle smile",
+      "dialogue": [
+        {
+          "speaker": "narrator",
+          "urdu": "آج عائشہ اپنی ماما سے ایک بہت پیاری عادت سیکھنے والی ہے۔",
+          "roman": "Aaj Ayesha apni Mama se aik bohat pyari aadat seekhne wali hai."
+        }
+      ],
+      "sfx": "Soft footsteps on tiled floor, distant birds, ceiling fan hum",
+      "start": "0:00",
+      "end": "0:06",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Comfortable sofa, curtains, simple furniture and natural daylight; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy. Action: Ayesha walks naturally across the living room past the sofa and curtains towards the kitchen doorway, soft daylight through the window. Expression: innocent gentle smile. Camera: Wide vertical establishing shot, slow gentle push-in, eye level. Audio: Narrator says in Urdu: \"Aaj Ayesha apni Mama se aik bohat pyari aadat seekhne wali hai.\" (voice-over, not on screen). Accurate natural lip sync. Sound: Soft footsteps on tiled floor, distant birds, ceiling fan hum. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "1.2",
+      "scene": 1,
+      "scene_title": "Ayesha at Home",
+      "duration": 5,
+      "location": "kitchen",
+      "characters": [
+        "mother"
+      ],
+      "camera": "Vertical medium shot from the kitchen doorway",
+      "action": "Mother stands at the stove stirring a pot of daal, then turns to chop fresh vegetables on a cutting board",
+      "expression": "Calm and content",
+      "dialogue": [],
+      "sfx": "Gentle simmering, knife chopping on wooden board",
+      "start": "0:06",
+      "end": "0:11",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Clean practical Pakistani home kitchen, cabinets, cooking utensils and stove; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): MOTHER: 34-year-old Pakistani mother, realistic Pakistani woman with natural human facial features, warm brown eyes, soft kind smile, wheatish warm skin tone, wearing a simple beige hijab neatly wrapped with full hair, neck and chest coverage and a modest traditional Pakistani shalwar kameez in soft cream and beige cotton with full sleeves. Action: Mother stands at the stove stirring a pot of daal, then turns to chop fresh vegetables on a cutting board. Expression: calm and content. Camera: Vertical medium shot from the kitchen doorway. Sound: Gentle simmering, knife chopping on wooden board. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "1.3",
+      "scene": 1,
+      "scene_title": "Ayesha at Home",
+      "duration": 5,
+      "location": "kitchen",
+      "characters": [
+        "ayesha",
+        "mother"
+      ],
+      "camera": "Vertical medium two-shot",
+      "action": "Ayesha steps into the kitchen and greets her mother; mother looks up and smiles warmly",
+      "expression": "Natural happiness",
+      "dialogue": [
+        {
+          "speaker": "ayesha",
+          "urdu": "السلام علیکم ماما!",
+          "roman": "Assalam-o-Alaikum Mama!"
+        },
+        {
+          "speaker": "mother",
+          "urdu": "وعلیکم السلام، بیٹا!",
+          "roman": "Wa Alaikum Assalam, beta!"
+        }
+      ],
+      "sfx": "Kitchen ambience",
+      "start": "0:11",
+      "end": "0:16",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Clean practical Pakistani home kitchen, cabinets, cooking utensils and stove; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy | MOTHER: 34-year-old Pakistani mother, realistic Pakistani woman with natural human facial features, warm brown eyes, soft kind smile, wheatish warm skin tone, wearing a simple beige hijab neatly wrapped with full hair, neck and chest coverage and a modest traditional Pakistani shalwar kameez in soft cream and beige cotton with full sleeves. Action: Ayesha steps into the kitchen and greets her mother; mother looks up and smiles warmly. Expression: natural happiness. Camera: Vertical medium two-shot. Audio: Ayesha says in Urdu: \"Assalam-o-Alaikum Mama!\" Mother says in Urdu: \"Wa Alaikum Assalam, beta!\". Accurate natural lip sync. Sound: Kitchen ambience. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "2.1",
+      "scene": 2,
+      "scene_title": "Ayesha Asks a Question",
+      "duration": 6,
+      "location": "kitchen",
+      "characters": [
+        "ayesha",
+        "mother"
+      ],
+      "camera": "Natural vertical medium close-up on Ayesha, mother partly in frame",
+      "action": "Ayesha stands beside her mother at the counter, looks up at her and asks a question",
+      "expression": "Curious expression",
+      "dialogue": [
+        {
+          "speaker": "ayesha",
+          "urdu": "ماما، کھانا کھانے سے پہلے کیا پڑھنا چاہیے؟",
+          "roman": "Mama, khana khanay se pehle kya parhna chahiye?"
+        }
+      ],
+      "sfx": "Soft simmering",
+      "start": "0:16",
+      "end": "0:22",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Clean practical Pakistani home kitchen, cabinets, cooking utensils and stove; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy | MOTHER: 34-year-old Pakistani mother, realistic Pakistani woman with natural human facial features, warm brown eyes, soft kind smile, wheatish warm skin tone, wearing a simple beige hijab neatly wrapped with full hair, neck and chest coverage and a modest traditional Pakistani shalwar kameez in soft cream and beige cotton with full sleeves. Action: Ayesha stands beside her mother at the counter, looks up at her and asks a question. Expression: curious expression. Camera: Natural vertical medium close-up on Ayesha, mother partly in frame. Audio: Ayesha says in Urdu: \"Mama, khana khanay se pehle kya parhna chahiye?\". Accurate natural lip sync. Sound: Soft simmering. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "2.2",
+      "scene": 2,
+      "scene_title": "Ayesha Asks a Question",
+      "duration": 7,
+      "location": "kitchen",
+      "characters": [
+        "mother",
+        "ayesha"
+      ],
+      "camera": "Natural vertical medium close-up on mother, over Ayesha's shoulder",
+      "action": "Mother pauses her cooking, smiles and looks gently down at Ayesha while answering",
+      "expression": "Patient loving smile",
+      "dialogue": [
+        {
+          "speaker": "mother",
+          "urdu": "بیٹا، کھانا شروع کرنے سے پہلے بسم اللہ پڑھتے ہیں۔",
+          "roman": "Beta, khana shuru karne se pehle Bismillah parhte hain."
+        }
+      ],
+      "sfx": "Kitchen ambience",
+      "start": "0:22",
+      "end": "0:29",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Clean practical Pakistani home kitchen, cabinets, cooking utensils and stove; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy | MOTHER: 34-year-old Pakistani mother, realistic Pakistani woman with natural human facial features, warm brown eyes, soft kind smile, wheatish warm skin tone, wearing a simple beige hijab neatly wrapped with full hair, neck and chest coverage and a modest traditional Pakistani shalwar kameez in soft cream and beige cotton with full sleeves. Action: Mother pauses her cooking, smiles and looks gently down at Ayesha while answering. Expression: patient loving smile. Camera: Natural vertical medium close-up on mother, over Ayesha's shoulder. Audio: Mother says in Urdu: \"Beta, khana shuru karne se pehle Bismillah parhte hain.\". Accurate natural lip sync. Sound: Kitchen ambience. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "3.1",
+      "scene": 3,
+      "scene_title": "Learning Bismillah",
+      "duration": 5,
+      "location": "kitchen",
+      "characters": [
+        "mother",
+        "ayesha"
+      ],
+      "camera": "Vertical close-up on mother's face, shallow depth of field",
+      "action": "Mother bends slightly to Ayesha's eye level and speaks slowly and clearly",
+      "expression": "Gentle encouraging",
+      "dialogue": [
+        {
+          "speaker": "mother",
+          "urdu": "میرے ساتھ بولو: بسم اللہ۔",
+          "roman": "Mere saath bolo: Bismillah."
+        }
+      ],
+      "sfx": "Quiet room tone",
+      "start": "0:29",
+      "end": "0:34",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Clean practical Pakistani home kitchen, cabinets, cooking utensils and stove; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy | MOTHER: 34-year-old Pakistani mother, realistic Pakistani woman with natural human facial features, warm brown eyes, soft kind smile, wheatish warm skin tone, wearing a simple beige hijab neatly wrapped with full hair, neck and chest coverage and a modest traditional Pakistani shalwar kameez in soft cream and beige cotton with full sleeves. Action: Mother bends slightly to Ayesha's eye level and speaks slowly and clearly. Expression: gentle encouraging. Camera: Vertical close-up on mother's face, shallow depth of field. Audio: Mother says in Urdu: \"Mere saath bolo: Bismillah.\". Accurate natural lip sync. Sound: Quiet room tone. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "3.2",
+      "scene": 3,
+      "scene_title": "Learning Bismillah",
+      "duration": 4,
+      "location": "kitchen",
+      "characters": [
+        "ayesha"
+      ],
+      "camera": "Vertical close-up on Ayesha's face",
+      "action": "Ayesha repeats the word carefully, then smiles shyly",
+      "expression": "Innocent gentle smile",
+      "dialogue": [
+        {
+          "speaker": "ayesha",
+          "urdu": "بسم اللہ۔",
+          "roman": "Bismillah."
+        }
+      ],
+      "overlay": "بِسْمِ اللّٰهِ",
+      "sfx": "Quiet room tone",
+      "start": "0:34",
+      "end": "0:38",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Clean practical Pakistani home kitchen, cabinets, cooking utensils and stove; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy. Action: Ayesha repeats the word carefully, then smiles shyly. Expression: innocent gentle smile. Camera: Vertical close-up on Ayesha's face. Audio: Ayesha says in Urdu: \"Bismillah.\". Accurate natural lip sync. Sound: Quiet room tone. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "3.3",
+      "scene": 3,
+      "scene_title": "Learning Bismillah",
+      "duration": 7,
+      "location": "kitchen",
+      "characters": [
+        "mother",
+        "ayesha"
+      ],
+      "camera": "Vertical close two-shot, faces side by side",
+      "action": "Mother praises Ayesha and gently touches her shoulder; Ayesha nods happily, understanding",
+      "expression": "Natural happiness",
+      "dialogue": [
+        {
+          "speaker": "mother",
+          "urdu": "شاباش بیٹا! اس کا مطلب ہے: اللہ کے نام سے۔",
+          "roman": "Shabash beta! Iska matlab hai: Allah ke naam se."
+        }
+      ],
+      "overlay": "اللہ کے نام سے",
+      "sfx": "Quiet room tone",
+      "start": "0:38",
+      "end": "0:45",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Clean practical Pakistani home kitchen, cabinets, cooking utensils and stove; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy | MOTHER: 34-year-old Pakistani mother, realistic Pakistani woman with natural human facial features, warm brown eyes, soft kind smile, wheatish warm skin tone, wearing a simple beige hijab neatly wrapped with full hair, neck and chest coverage and a modest traditional Pakistani shalwar kameez in soft cream and beige cotton with full sleeves. Action: Mother praises Ayesha and gently touches her shoulder; Ayesha nods happily, understanding. Expression: natural happiness. Camera: Vertical close two-shot, faces side by side. Audio: Mother says in Urdu: \"Shabash beta! Iska matlab hai: Allah ke naam se.\". Accurate natural lip sync. Sound: Quiet room tone. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "4.1",
+      "scene": 4,
+      "scene_title": "Preparing for Lunch",
+      "duration": 6,
+      "location": "dining_room",
+      "characters": [
+        "mother",
+        "ayesha"
+      ],
+      "camera": "Vertical medium-wide shot of the dining table",
+      "action": "Mother places a bowl of homemade daal and a vegetable curry on the wooden table; Ayesha sets down a basket of fresh roti; salad and a water jug already on the table",
+      "expression": "Natural happiness",
+      "dialogue": [],
+      "sfx": "Plates and bowls placed gently on wood",
+      "start": "0:45",
+      "end": "0:51",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Wooden dining table, simple chairs, plates and drinking glasses; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy | MOTHER: 34-year-old Pakistani mother, realistic Pakistani woman with natural human facial features, warm brown eyes, soft kind smile, wheatish warm skin tone, wearing a simple beige hijab neatly wrapped with full hair, neck and chest coverage and a modest traditional Pakistani shalwar kameez in soft cream and beige cotton with full sleeves. Action: Mother places a bowl of homemade daal and a vegetable curry on the wooden table; Ayesha sets down a basket of fresh roti; salad and a water jug already on the table. Expression: natural happiness. Camera: Vertical medium-wide shot of the dining table. Sound: Plates and bowls placed gently on wood. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "4.2",
+      "scene": 4,
+      "scene_title": "Preparing for Lunch",
+      "duration": 7,
+      "location": "dining_room",
+      "characters": [
+        "mother",
+        "ayesha"
+      ],
+      "camera": "Vertical medium two-shot beside the table",
+      "action": "Mother reminds Ayesha to wash her hands; Ayesha answers cheerfully and turns towards the sink",
+      "expression": "Natural happiness",
+      "dialogue": [
+        {
+          "speaker": "mother",
+          "urdu": "بیٹا، کھانے سے پہلے اپنے ہاتھ دھونا ضروری ہے۔",
+          "roman": "Beta, khanay se pehle apne haath dhona zaroori hai."
+        },
+        {
+          "speaker": "ayesha",
+          "urdu": "جی ماما!",
+          "roman": "Ji Mama!"
+        }
+      ],
+      "sfx": "Room tone",
+      "start": "0:51",
+      "end": "0:58",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Wooden dining table, simple chairs, plates and drinking glasses; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy | MOTHER: 34-year-old Pakistani mother, realistic Pakistani woman with natural human facial features, warm brown eyes, soft kind smile, wheatish warm skin tone, wearing a simple beige hijab neatly wrapped with full hair, neck and chest coverage and a modest traditional Pakistani shalwar kameez in soft cream and beige cotton with full sleeves. Action: Mother reminds Ayesha to wash her hands; Ayesha answers cheerfully and turns towards the sink. Expression: natural happiness. Camera: Vertical medium two-shot beside the table. Audio: Mother says in Urdu: \"Beta, khanay se pehle apne haath dhona zaroori hai.\" Ayesha says in Urdu: \"Ji Mama!\". Accurate natural lip sync. Sound: Room tone. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "4.3",
+      "scene": 4,
+      "scene_title": "Preparing for Lunch",
+      "duration": 6,
+      "location": "kitchen",
+      "characters": [
+        "ayesha"
+      ],
+      "camera": "Vertical medium shot at the sink, then close-up on hands",
+      "action": "Ayesha rolls back her sleeves slightly, washes her hands with soap and water, dries them on a towel and walks back to the dining table",
+      "expression": "Thoughtful expression",
+      "dialogue": [],
+      "sfx": "Running tap water, soap lather, towel rustle, footsteps",
+      "start": "0:58",
+      "end": "1:04",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Clean practical Pakistani home kitchen, cabinets, cooking utensils and stove; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy. Action: Ayesha rolls back her sleeves slightly, washes her hands with soap and water, dries them on a towel and walks back to the dining table. Expression: thoughtful expression. Camera: Vertical medium shot at the sink, then close-up on hands. Sound: Running tap water, soap lather, towel rustle, footsteps. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "5.1",
+      "scene": 5,
+      "scene_title": "Good Eating Habits",
+      "duration": 5,
+      "location": "dining_room",
+      "characters": [
+        "mother",
+        "ayesha"
+      ],
+      "camera": "Vertical medium shot",
+      "action": "Mother and Ayesha pull out their chairs and sit down comfortably facing the food",
+      "expression": "Calm and content",
+      "dialogue": [],
+      "sfx": "Chairs sliding softly on floor",
+      "start": "1:04",
+      "end": "1:09",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Wooden dining table, simple chairs, plates and drinking glasses; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy | MOTHER: 34-year-old Pakistani mother, realistic Pakistani woman with natural human facial features, warm brown eyes, soft kind smile, wheatish warm skin tone, wearing a simple beige hijab neatly wrapped with full hair, neck and chest coverage and a modest traditional Pakistani shalwar kameez in soft cream and beige cotton with full sleeves. Action: Mother and Ayesha pull out their chairs and sit down comfortably facing the food. Expression: calm and content. Camera: Vertical medium shot. Sound: Chairs sliding softly on floor. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "5.2",
+      "scene": 5,
+      "scene_title": "Good Eating Habits",
+      "duration": 7,
+      "location": "dining_room",
+      "characters": [
+        "mother",
+        "ayesha"
+      ],
+      "camera": "Vertical medium close-up on mother, then insert on her right hand near her plate",
+      "action": "Mother raises her right hand and points to the food directly in front of her plate while explaining",
+      "expression": "Gentle teaching",
+      "dialogue": [
+        {
+          "speaker": "mother",
+          "urdu": "ہمیشہ دائیں ہاتھ سے کھاؤ، اور اپنے سامنے سے کھاؤ۔",
+          "roman": "Hamesha daayen haath se khao, aur apne saamne se khao."
+        }
+      ],
+      "sfx": "Room tone",
+      "start": "1:09",
+      "end": "1:16",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Wooden dining table, simple chairs, plates and drinking glasses; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy | MOTHER: 34-year-old Pakistani mother, realistic Pakistani woman with natural human facial features, warm brown eyes, soft kind smile, wheatish warm skin tone, wearing a simple beige hijab neatly wrapped with full hair, neck and chest coverage and a modest traditional Pakistani shalwar kameez in soft cream and beige cotton with full sleeves. Action: Mother raises her right hand and points to the food directly in front of her plate while explaining. Expression: gentle teaching. Camera: Vertical medium close-up on mother, then insert on her right hand near her plate. Audio: Mother says in Urdu: \"Hamesha daayen haath se khao, aur apne saamne se khao.\". Accurate natural lip sync. Sound: Room tone. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "5.3",
+      "scene": 5,
+      "scene_title": "Good Eating Habits",
+      "duration": 5,
+      "location": "dining_room",
+      "characters": [
+        "ayesha"
+      ],
+      "camera": "Vertical medium close-up on Ayesha",
+      "action": "Ayesha nods and raises her right hand slightly to show she understands",
+      "expression": "Innocent gentle smile",
+      "dialogue": [
+        {
+          "speaker": "ayesha",
+          "urdu": "ٹھیک ہے ماما، میں یاد رکھوں گی!",
+          "roman": "Theek hai Mama, main yaad rakhoon gi!"
+        }
+      ],
+      "sfx": "Room tone",
+      "start": "1:16",
+      "end": "1:21",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Wooden dining table, simple chairs, plates and drinking glasses; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy. Action: Ayesha nods and raises her right hand slightly to show she understands. Expression: innocent gentle smile. Camera: Vertical medium close-up on Ayesha. Audio: Ayesha says in Urdu: \"Theek hai Mama, main yaad rakhoon gi!\". Accurate natural lip sync. Sound: Room tone. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "6.1",
+      "scene": 6,
+      "scene_title": "Ayesha Remembers",
+      "duration": 6,
+      "location": "dining_room",
+      "characters": [
+        "ayesha"
+      ],
+      "camera": "Vertical close-up, slow push-in on Ayesha's face",
+      "action": "Ayesha tears a small piece of roti with her right hand, lifts it, then pauses before her first bite",
+      "expression": "Thoughtful expression",
+      "dialogue": [],
+      "sfx": "Soft roti tear, quiet room tone",
+      "start": "1:21",
+      "end": "1:27",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Wooden dining table, simple chairs, plates and drinking glasses; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy. Action: Ayesha tears a small piece of roti with her right hand, lifts it, then pauses before her first bite. Expression: thoughtful expression. Camera: Vertical close-up, slow push-in on Ayesha's face. Sound: Soft roti tear, quiet room tone. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "6.2",
+      "scene": 6,
+      "scene_title": "Ayesha Remembers",
+      "duration": 4,
+      "location": "dining_room",
+      "characters": [
+        "ayesha"
+      ],
+      "camera": "Vertical close-up on Ayesha",
+      "action": "Ayesha's face brightens as she remembers and softly says Bismillah",
+      "expression": "Innocent gentle smile",
+      "dialogue": [
+        {
+          "speaker": "ayesha",
+          "urdu": "بسم اللہ۔",
+          "roman": "Bismillah."
+        }
+      ],
+      "overlay": "بِسْمِ اللّٰهِ",
+      "sfx": "Quiet room tone",
+      "start": "1:27",
+      "end": "1:31",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Wooden dining table, simple chairs, plates and drinking glasses; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy. Action: Ayesha's face brightens as she remembers and softly says Bismillah. Expression: innocent gentle smile. Camera: Vertical close-up on Ayesha. Audio: Ayesha says in Urdu: \"Bismillah.\". Accurate natural lip sync. Sound: Quiet room tone. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "6.3",
+      "scene": 6,
+      "scene_title": "Ayesha Remembers",
+      "duration": 6,
+      "location": "dining_room",
+      "characters": [
+        "mother",
+        "ayesha"
+      ],
+      "camera": "Vertical medium two-shot across the table",
+      "action": "Mother's face lights up with pride; Ayesha begins eating the roti and daal with her right hand",
+      "expression": "Surprised expression turning into natural happiness",
+      "dialogue": [
+        {
+          "speaker": "mother",
+          "urdu": "ماشاءاللہ! تمہیں یاد رہا!",
+          "roman": "MashaAllah! Tumhein yaad raha!"
+        }
+      ],
+      "sfx": "Light cutlery and plate sounds",
+      "start": "1:31",
+      "end": "1:37",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Wooden dining table, simple chairs, plates and drinking glasses; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy | MOTHER: 34-year-old Pakistani mother, realistic Pakistani woman with natural human facial features, warm brown eyes, soft kind smile, wheatish warm skin tone, wearing a simple beige hijab neatly wrapped with full hair, neck and chest coverage and a modest traditional Pakistani shalwar kameez in soft cream and beige cotton with full sleeves. Action: Mother's face lights up with pride; Ayesha begins eating the roti and daal with her right hand. Expression: surprised expression turning into natural happiness. Camera: Vertical medium two-shot across the table. Audio: Mother says in Urdu: \"MashaAllah! Tumhein yaad raha!\". Accurate natural lip sync. Sound: Light cutlery and plate sounds. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "7.1",
+      "scene": 7,
+      "scene_title": "A Beautiful Lesson",
+      "duration": 6,
+      "location": "dining_room",
+      "characters": [
+        "ayesha"
+      ],
+      "camera": "Vertical medium close-up on Ayesha",
+      "action": "Ayesha looks at her mother with a proud happy smile and makes a promise",
+      "expression": "Natural happiness",
+      "dialogue": [
+        {
+          "speaker": "ayesha",
+          "urdu": "ماما، اب میں ہمیشہ بسم اللہ پڑھ کر کھانا شروع کروں گی!",
+          "roman": "Mama, ab main hamesha Bismillah parh kar khana shuru karoon gi!"
+        }
+      ],
+      "sfx": "Room tone",
+      "start": "1:37",
+      "end": "1:43",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Wooden dining table, simple chairs, plates and drinking glasses; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy. Action: Ayesha looks at her mother with a proud happy smile and makes a promise. Expression: natural happiness. Camera: Vertical medium close-up on Ayesha. Audio: Ayesha says in Urdu: \"Mama, ab main hamesha Bismillah parh kar khana shuru karoon gi!\". Accurate natural lip sync. Sound: Room tone. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "7.2",
+      "scene": 7,
+      "scene_title": "A Beautiful Lesson",
+      "duration": 7,
+      "location": "dining_room",
+      "characters": [
+        "mother",
+        "ayesha"
+      ],
+      "camera": "Vertical medium two-shot, mother and daughter smiling at each other",
+      "action": "Mother gently strokes Ayesha's hijab-covered head and smiles lovingly; they smile at each other",
+      "expression": "Natural happiness",
+      "dialogue": [
+        {
+          "speaker": "mother",
+          "urdu": "ماشاءاللہ بیٹا! اپنی روزمرہ زندگی میں ہمیشہ اللہ کو یاد رکھنا۔",
+          "roman": "MashaAllah beta! Apni rozmarra zindagi mein hamesha Allah ko yaad rakhna."
+        }
+      ],
+      "sfx": "Room tone",
+      "start": "1:43",
+      "end": "1:50",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Wooden dining table, simple chairs, plates and drinking glasses; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy | MOTHER: 34-year-old Pakistani mother, realistic Pakistani woman with natural human facial features, warm brown eyes, soft kind smile, wheatish warm skin tone, wearing a simple beige hijab neatly wrapped with full hair, neck and chest coverage and a modest traditional Pakistani shalwar kameez in soft cream and beige cotton with full sleeves. Action: Mother gently strokes Ayesha's hijab-covered head and smiles lovingly; they smile at each other. Expression: natural happiness. Camera: Vertical medium two-shot, mother and daughter smiling at each other. Audio: Mother says in Urdu: \"MashaAllah beta! Apni rozmarra zindagi mein hamesha Allah ko yaad rakhna.\". Accurate natural lip sync. Sound: Room tone. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "7.3",
+      "scene": 7,
+      "scene_title": "A Beautiful Lesson",
+      "duration": 6,
+      "location": "dining_room",
+      "characters": [
+        "mother",
+        "ayesha"
+      ],
+      "camera": "Slow vertical pull-back to a wide shot of the family table in warm daylight",
+      "action": "Mother and Ayesha continue eating together peacefully",
+      "expression": "Calm and content",
+      "dialogue": [
+        {
+          "speaker": "narrator",
+          "urdu": "ہمیشہ اپنا کھانا اللہ کے نام سے شروع کریں۔",
+          "roman": "Hamesha apna khana Allah ke naam se shuru karein."
+        }
+      ],
+      "overlay": "کھانے سے پہلے اللہ کو یاد کریں!",
+      "sfx": "Soft room tone, distant birds",
+      "start": "1:50",
+      "end": "1:56",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Wooden dining table, simple chairs, plates and drinking glasses; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Characters (keep identical in every shot): AYESHA: 11-year-old Pakistani girl named Ayesha, slim oval face, natural delicate human facial anatomy, naturally proportionate forehead, almond shaped naturally expressive medium-large warm light brown eyes with natural eyelashes, naturally defined medium to naturally thick dark brown eyebrows, straight and naturally slim age-appropriate nose, naturally defined proportionate lips in soft natural pink, slim natural cheeks, soft rounded natural chin, gentle oval jawline, fair light warm complexion, realistic natural human skin with subtle natural skin pores, natural, not plastic or airbrushed skin finish, wearing a pastel pink neatly wrapped Pakistani modest hijab with full head, neck and chest coverage, hair completely covered, dressed in a pastel pink with subtle white details traditional Pakistani shalwar kameez: long loose full-sleeved kameez and traditional loose shalwar, realistic cotton fabric, elegant, simple and modest, naturally slender build, realistic 11-year-old child anatomy | MOTHER: 34-year-old Pakistani mother, realistic Pakistani woman with natural human facial features, warm brown eyes, soft kind smile, wheatish warm skin tone, wearing a simple beige hijab neatly wrapped with full hair, neck and chest coverage and a modest traditional Pakistani shalwar kameez in soft cream and beige cotton with full sleeves. Action: Mother and Ayesha continue eating together peacefully. Expression: calm and content. Camera: Slow vertical pull-back to a wide shot of the family table in warm daylight. Audio: Narrator says in Urdu: \"Hamesha apna khana Allah ke naam se shuru karein.\" (voice-over, not on screen). Accurate natural lip sync. Sound: Soft room tone, distant birds. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    },
+    {
+      "id": "7.4",
+      "scene": 7,
+      "scene_title": "End Card",
+      "duration": 4,
+      "location": "dining_room",
+      "characters": [],
+      "camera": "Hold on the blurred last frame",
+      "action": "End card: blurred final frame with title text overlay",
+      "expression": "",
+      "dialogue": [],
+      "overlay": "بِسْمِ اللّٰهِ\nکھانے سے پہلے اللہ کو یاد کریں!",
+      "sfx": "Room tone fades out",
+      "start": "1:56",
+      "end": "2:00",
+      "prompt": "Vertical 9:16 ultra photorealistic human video, real human cinematography, 2160x3840 (4K vertical), 24fps. Setting: A realistic middle-class Pakistani family home; Wooden dining table, simple chairs, plates and drinking glasses; Simple family photographs, indoor plants and modest home decoration; natural warm daylight; authentic Pakistani family environment. Action: End card: blurred final frame with title text overlay. Camera: Hold on the blurred last frame. Sound: Room tone fades out. No music. Motion: natural eye movement, realistic hands with five fingers, natural walking and sitting, no exaggerated movement. No on-screen text.",
+      "negative_prompt": "Cartoon characters, Anime, Pixar, Disney, Doll faces, Chubby faces, Different faces between scenes, Changing clothing, Changing hijab, Adult appearance for child, Unrealistic skin, Extra fingers, Distorted hands, Artificial facial expressions, Unrealistic Pakistani home, Random background changes, Incorrect Arabic lettering, Any on-screen text or captions, Horizontal framing, Background music"
+    }
+  ]
+}
