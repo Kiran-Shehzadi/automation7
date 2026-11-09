@@ -16,9 +16,11 @@ projects/
     shots.json     # 21-shot list with Urdu dialogue (edit this)
     PRODUCTION.md  # how to generate, voice, and assemble the video
     build/         # generated: SHOT_PROMPTS.md, shot_prompts.json, subtitles_ur.srt, VOICE_SCRIPT.md
+      animation/   # rendered 2D animation: clips/<shot>.mp4 + full 2:00 9:16 video
 scripts/
   build_prompts.py        # turns a character JSON into prompts
   build_video_package.py  # turns a project folder into shot prompts, subtitles and voice script
+  render_animation.py     # renders the 21 shots as 2D animated 9:16 clips + the full video
 ```
 
 ## Regenerating prompts
@@ -41,3 +43,18 @@ python3 scripts/build_video_package.py projects/ayesha-learns-bismillah
 ```
 
 The script fails if the shot durations don't add up to the project length.
+
+## Rendering the animated version
+
+Needs `pycairo`, Pillow (with raqm), numpy, ffmpeg and the Noto Nastaliq Urdu /
+Noto Naskh Arabic fonts (`apt-get install fonts-noto-core libcairo2-dev pkg-config && pip install pycairo`).
+
+```bash
+python3 scripts/render_animation.py projects/ayesha-learns-bismillah            # all clips + final video (~1 min)
+python3 scripts/render_animation.py projects/ayesha-learns-bismillah --preview  # PNG stills only
+python3 scripts/render_animation.py projects/ayesha-learns-bismillah --no-subs  # clips without subtitles
+```
+
+The clips have Urdu subtitles and home ambience sound but **no voices**. Record
+the lines in `build/VOICE_SCRIPT.md`. Mouths move during each line's subtitle
+window, so place each recording at its subtitle time.
