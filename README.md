@@ -17,6 +17,7 @@ projects/
     PRODUCTION.md  # how to generate, voice, and assemble the video
     build/         # generated: SHOT_PROMPTS.md, shot_prompts.json, subtitles_ur.srt, VOICE_SCRIPT.md
       animation/   # rendered 2D animation: clips/<shot>.mp4 + full 2:00 9:16 video
+reel-studio-kit/          # Remotion kit for 9:16 reels (script, voice, synced captions, render, self-check)
 scripts/
   build_prompts.py        # turns a character JSON into prompts
   build_video_package.py  # turns a project folder into shot prompts, subtitles and voice script
@@ -58,3 +59,18 @@ python3 scripts/render_animation.py projects/ayesha-learns-bismillah --no-subs  
 The clips have Urdu subtitles and home ambience sound but **no voices**. Record
 the lines in `build/VOICE_SCRIPT.md`. Mouths move during each line's subtitle
 window, so place each recording at its subtitle time.
+
+## Reel Studio Kit
+
+`reel-studio-kit/` makes vertical reels with Remotion. See `reel-studio-kit/README.md`.
+
+```bash
+cd reel-studio-kit
+npm install && npm run typecheck
+npm run setup:captions   # one-time, local Whisper caption sync (Python 3.11-3.13)
+npm run demo             # -> out/Demo.mp4
+```
+
+In a cloud/Linux container without Chrome, point Remotion at a browser:
+`export BROWSER_EXECUTABLE=/opt/pw-browsers/chromium`. Open Claude Code inside
+`reel-studio-kit/` and type `reel banao: <topic>`.
